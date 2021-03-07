@@ -1,0 +1,245 @@
+/* Common part */
+/* Common Page */
+#menuNavigation {
+    background-image: url("../img/leftFond.jpg");
+}
+#englishButton, #frenchButton {
+    margin-top: 3%;
+}
+.selected, .navigationButton:hover {
+    border-radius: 10px;
+    background-color: rgba(141, 141, 140, 0.4);
+}
+#topArea {
+    background-image: url("../img/topFond.jpg");
+}
+#globalTitle {
+    padding-left: 5%;
+}
+#contentPage {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-image: url("../img/fondFroisser.jpg");
+}
+h1, h2, h3, p, legend {
+    font-family: 'Rouge Script', cursive; 
+}
+h2 { 
+    color: rgb(141, 166, 219); 
+    text-shadow: 1px 1px 2px #303131; 
+}
+/* Home Page */
+.borderf, .borderb {
+    border-color: rgb(141, 141, 140);
+    border-width: 3px;
+}
+.borderf {
+    border-style: solid;
+}
+.borderb {
+    border-bottom-style: solid;
+}
+#resumeTitle, #skillsTitle, #contactTitle, #ExperiencesTitle, #portfolioTitle {
+    background-image: url("../img/fondParchemin.jpg");
+}
+#ExperiencesTitle, #portfolioTitle, #presentation, #resume, #skills, #computerSkills fieldset, #languageSkills fieldset, #otherSkills fieldset, .contentExperiences, .contentPortfolio {
+    width: 90%;
+    margin-left: 5%;
+}
+#wellcomes, #contentHome, #contentContact, #presentation, #resume, #skills, #parcourtInitial, #urbanisme, #pracourtDev, #computerSkills, #languageSkills, #otherSkills {
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
+}
+#wellcomesText, .presentationText, .contentExperiences p, .contentPortfolio p { 
+    text-indent: 30px;
+    text-align: justify;
+}
+#resume p, #wellcomesText, .presentationText, .contentExperiences p, .contentPortfolio p {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#wellcomesTitle, #presentationTitle, #wellcomesText, .presentationText, .contentExperiences h3, .contentPortfolio h3, h3 + p {
+    padding-top: 3%;
+}
+/* Presentation Page */
+#presentationPicture {
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+/* Resume Page */
+/* #fondBac, #fondPrepa, #fondPolytech {
+    max-width: 420px;
+    width: 90%;
+}
+#fondBac {
+    height: 146px;
+    background-image: url("../img/FondStJo.jpg");
+}
+#fondPrepa {
+    height: 132px;
+    background-image: url("../img/fondPierredAilly.jpg");
+}
+#fondPolytech {
+    height: 251px;
+    background-image: url("../img/fondPolytech.jpg");
+} */
+
+/* Skills Page */
+#computerSkills fieldset, #languageSkills fieldset, #otherSkills fieldset {
+    margin-bottom: 5%;
+} 
+legend, #postalAdress, #emailAdress, #phoneAdress {
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid black;
+}
+.skillsSubtitle, .contentExperiences, .contentPortfolio {
+    margin-top: 5%;
+}
+/* page Portfolio */
+.contentPortfolio a {
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+/* page me contacter */
+#postalAdress, #emailAdress, #phoneAdress {
+    border-top: 1px solid rgb(12, 12, 12);
+}
+#postalAdress p, #emailAdress p, #phoneAdress p {
+    width: 80%;
+    padding-left: 6%;
+}
+#postalAdress picture, #emailAdress picture, #phoneAdress picture {
+    padding-right: 6%;
+    width: 20%;
+}
+#contentContact img {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* BigScreen part */
+@media screen and (min-width:992px) {
+/* Menu */
+.row {
+    display: flex;
+    align-items: stretch;
+}
+#home, .navigationButton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#home + div {
+    margin-top: 50px;
+}
+.navigationButton {
+    width: 100%;
+}
+/* Bandeau du haut */
+#topArea {
+    height: 200px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 { 
+    font-size: 30px; 
+}
+/* page d'accueil   */
+#contentHome, #contentContact {
+    width: 646px;
+    height: 486px;
+}
+#myPictureHome, #wellcomes {
+    height: 480px;
+}
+#wellcomesText, .presentationText { 
+    font-size: 17px; 
+}
+/* Page formation */
+#resumeColon, #skillsColon {
+    display: flex;
+    align-items: stretch;
+}
+#parcourtInitial, #urbanisme, #pracourtDev {
+    width: 33.333333%;
+}
+/* page compétences */
+#computerSkills, #languageSkills, #otherSkills {
+    width: 33.33%;
+}
+/* page Experiences */
+.contentExperiences, .contentPortfolio {
+    background-image: linear-gradient(to top, grey , white 5%, white 95%, grey);
+}
+.contentExperiences img, .contentPortfolio img {
+    float: left;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+.contentExperiences p, .contentPortfolio p {
+    font-size: 17px;
+}
+}
+/* Small Screen */
+@media screen and (max-width:991px) {
+/* Menu */
+#menuNavigation {
+    height: 110px;
+}
+#home {
+    margin-top: -40px;
+}
+.navigationButton {
+    margin-bottom: 5px;
+    width: 14.28%;
+}
+/* Bandeau du haut */
+#topArea {
+    height: 90px;
+}
+h1 {
+    font-size: 18px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 15px;
+}
+p {
+    font-size: 10px;
+}
+/* page d'accueil   */
+#contentHome {
+    width: 326px;
+    height: 246px;
+}
+#myPictureHome, #wellcomes {
+    height: 240px;
+}
+/* Page formation */
+#parcourtInitial, #urbanisme, #pracourtDev {
+    width: 100%;
+}
+/* page compétences */
+#computerSkills, #languageSkills, #otherSkills {
+    width: 100%;
+} 
+/* page Experiences */
+.contentExperiences, .contentPortfolio {
+    text-align: center;
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
+}
+.contentPortfolio img, .contentExperiences img {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* page contact */
+#contentContact {
+    width: 326px;
+    height: 300px;
+}
+}
