@@ -1,7 +1,7 @@
 /* Common part */
 /* Common Page */
 #menuNavigation {
-    background-image: url("../img/leftFond.jpg");
+    background-image: url("leftFond.jpg");
 }
 #englishButton, #frenchButton {
     margin-top: 3%;
@@ -11,7 +11,7 @@
     background-color: rgba(141, 141, 140, 0.4);
 }
 #topArea {
-    background-image: url("../img/topFond.jpg");
+    background-image: url("topFond.jpg");
 }
 #globalTitle {
     padding-left: 5%;
@@ -19,7 +19,7 @@
 #contentPage {
     padding-bottom: 5%;
     padding-top: 5%;
-    background-image: url("../img/fondFroisser.jpg");
+    background-image: url("fondFroisser.jpg");
 }
 h1, h2, h3, p, legend {
     font-family: 'Rouge Script', cursive; 
@@ -40,13 +40,13 @@ h2 {
     border-bottom-style: solid;
 }
 #resumeTitle, #skillsTitle, #contactTitle, #ExperiencesTitle, #portfolioTitle {
-    background-image: url("../img/fondParchemin.jpg");
+    background-image: url("fondParchemin.jpg");
 }
 #ExperiencesTitle, #portfolioTitle, #presentation, #resume, #skills, #computerSkills fieldset, #languageSkills fieldset, #otherSkills fieldset, .contentExperiences, .contentPortfolio {
     width: 90%;
     margin-left: 5%;
 }
-#wellcomes, #contentHome, #contentContact, #presentation, #resume, #skills, #parcourtInitial, #urbanisme, #pracourtDev, #computerSkills, #languageSkills, #otherSkills {
+#wellcomes, #contentHome, #contentContact, #presentation, #resume, #skills, #parcourtInitial, #Tourisme, #secretariat, #computerSkills, #languageSkills, #otherSkills {
     background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 #wellcomesText, .presentationText, .contentExperiences p, .contentPortfolio p { 
@@ -74,15 +74,15 @@ h2 {
 }
 #fondBac {
     height: 146px;
-    background-image: url("../img/FondStJo.jpg");
+    background-image: url("FondStJo.jpg");
 }
 #fondPrepa {
     height: 132px;
-    background-image: url("../img/fondPierredAilly.jpg");
+    background-image: url("fondPierredAilly.jpg");
 }
 #fondPolytech {
     height: 251px;
-    background-image: url("../img/fondPolytech.jpg");
+    background-image: url("fondPolytech.jpg");
 } */
 
 /* Skills Page */
@@ -161,7 +161,7 @@ h2 {
     display: flex;
     align-items: stretch;
 }
-#parcourtInitial, #urbanisme, #pracourtDev {
+#parcourtInitial, #Tourisme, #secretariat {
     width: 33.333333%;
 }
 /* page compétences */
@@ -221,7 +221,7 @@ p {
     height: 240px;
 }
 /* Page formation */
-#parcourtInitial, #urbanisme, #pracourtDev {
+#parcourtInitial, #Tourisme, #secretariat {
     width: 100%;
 }
 /* page compétences */
