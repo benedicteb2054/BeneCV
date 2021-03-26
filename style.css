@@ -46,7 +46,7 @@ h2 {
     width: 90%;
     margin-left: 5%;
 }
-#wellcomes, #contentHome, #contentContact, #presentation, #resume, #skills, #parcourtInitial, #Tourisme, #secretariat, #computerSkills, #languageSkills, #otherSkills {
+#wellcomes, #contentHome, #contentContact, #presentation, #resume, #skills, #parcourtInitial, #tourisme, #secretariat, #computerSkills, #languageSkills, #otherSkills {
     background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 #wellcomesText, .presentationText, .contentExperiences p, .contentPortfolio p { 
@@ -161,7 +161,7 @@ h2 {
     display: flex;
     align-items: stretch;
 }
-#parcourtInitial, #Tourisme, #secretariat {
+#parcourtInitial, #tourisme, #secretariat {
     width: 33.333333%;
 }
 /* page compétences */
@@ -221,7 +221,7 @@ p {
     height: 240px;
 }
 /* Page formation */
-#parcourtInitial, #Tourisme, #secretariat {
+#parcourtInitial, #tourisme, #secretariat {
     width: 100%;
 }
 /* page compétences */
